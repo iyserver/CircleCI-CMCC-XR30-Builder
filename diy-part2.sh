@@ -190,7 +190,8 @@ config_package_del shadowsocksr-libev-ssr-redir
 config_package_del shadowsocks-libev-ssr-server
 config_package_del shadowsocks-rust
 config_package_del simple-obfs
-
+rm -r package/custom/shadowsocks-rust
+rm -r package/custom/simple-obfs
 
 ## 定时任务。重启、关机、重启网络、释放内存、系统清理、网络共享、关闭网络、自动检测断网重连、MWAN3负载均衡检测重连、自定义脚本等10多个功能
 config_package_add luci-app-autotimeset
