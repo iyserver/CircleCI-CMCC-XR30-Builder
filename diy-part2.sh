@@ -113,8 +113,8 @@ config_package_add luci-app-arpbind
 config_package_add luci-app-wol
 ## QR Code Generator
 config_package_add qrencode
-## Zsh
-config_package_add zsh
+## Fish
+config_package_add fish
 ## Temporarily disable USB3.0
 config_package_add luci-app-usb3disable
 ## USB
@@ -147,12 +147,17 @@ config_package_add luci-app-mwan3
 config_package_add luci-app-mosdns
 ## curl
 config_package_add curl
-## netcat
-config_package_add netcat
+## socat
+config_package_add socat
 ## disk
 config_package_add gdisk
 config_package_add sgdisk
+## Vim-Full
+config_package_add vim-full
 
+# MentoHust
+git clone https://github.com/sbwml/luci-app-mentohust package/mentohust
+config_package_add luci-app-mentohust
 
 # Third-party packages
 mkdir -p package/custom
