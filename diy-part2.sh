@@ -169,24 +169,25 @@ rm -rf feeds/packages/lang/golang
 mv package/custom/golang feeds/packages/lang/
 
 ## Passwall
-config_package_add luci-app-passwall
-config_package_add luci-app-passwall_Nftables_Transparent_Proxy
-config_package_del luci-app-passwall_Iptables_Transparent_Proxy
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client
-config_package_del luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server
-config_package_del luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client
-config_package_del luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Server
-config_package_del luci-app-passwall_INCLUDE_Trojan_Plus
-config_package_del luci-app-passwall_INCLUDE_Simple_Obfs
-config_package_del luci-app-passwall_INCLUDE_tuic_client
+config_package_add luci-app-passwall2
+config_package_add luci-app-passwall2_Nftables_Transparent_Proxy
+config_package_del luci-app-passwall2_Iptables_Transparent_Proxy
+config_package_del luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Client
+config_package_del luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Server
+config_package_del luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Client
+config_package_del luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Server
+config_package_del luci-app-passwall2_INCLUDE_ShadowsocksR_Libev_Client
+config_package_del luci-app-passwall2_INCLUDE_ShadowsocksR_Libev_Server
+config_package_del luci-app-passwall2_INCLUDE_Trojan_Plus
+config_package_del luci-app-passwall2_INCLUDE_Simple_Obfs
+config_package_del luci-app-passwall2_INCLUDE_tuic_client
 config_package_del shadowsocks-libev-config
 config_package_del shadowsocks-libev-ss-local
 config_package_del shadowsocks-libev-ss-redir
 config_package_del shadowsocks-libev-ss-server
 config_package_del shadowsocksr-libev-ssr-local
 config_package_del shadowsocksr-libev-ssr-redir
+config_package_del shadowsocks-libev-ssr-server
 
 
 ## 定时任务。重启、关机、重启网络、释放内存、系统清理、网络共享、关闭网络、自动检测断网重连、MWAN3负载均衡检测重连、自定义脚本等10多个功能
