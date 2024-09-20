@@ -101,7 +101,8 @@ config_package_del luci-app-ssr-plus_INCLUDE_NONE_V2RAY
 config_package_del luci-app-ssr-plus_INCLUDE_Shadowsocks_NONE_Client
 config_package_del luci-app-ssr-plus_INCLUDE_ShadowsocksR_NONE_Server
 config_package_del luci-theme-bootstrap-mod
-
+config_package_del luci-app-ssr-plus_INCLUDE_ShadowsocksR_Rust_Client
+config_package_del luci-app-ssr-plus_INCLUDE_ShadowsocksR_Rust_Server
 # Add custom packages
 
 ## Web Terminal
@@ -111,13 +112,13 @@ config_package_add luci-app-arpbind
 ## Wake on Lan
 config_package_add luci-app-wol
 ## QR Code Generator
-# config_package_add qrencode
+config_package_add qrencode
 ## Zsh
-# config_package_add zsh
+config_package_add zsh
 ## Temporarily disable USB3.0
 config_package_add luci-app-usb3disable
 ## USB
-# config_package_add kmod-usb-net-huawei-cdc-ncm
+config_package_add kmod-usb-net-huawei-cdc-ncm
 config_package_add kmod-usb-net-ipheth
 config_package_add kmod-usb-net-aqc111
 config_package_add kmod-usb-net-rtl8152-vendor
@@ -130,7 +131,7 @@ config_package_add sendat
 ## bbr
 config_package_add kmod-tcp-bbr
 ## coremark cpu 跑分
-# config_package_add coremark
+config_package_add coremark
 ## autocore + lm-sensors-detect： cpu 频率、温度
 config_package_add autocore
 config_package_add lm-sensors-detect
@@ -143,14 +144,14 @@ config_package_add luci-app-mwan3
 # ## frpc
 # config_package_add luci-app-frpc
 ## mosdns
-# config_package_add luci-app-mosdns
+config_package_add luci-app-mosdns
 ## curl
 config_package_add curl
 ## netcat
 config_package_add netcat
 ## disk
-# config_package_add gdisk
-# config_package_add sgdisk
+config_package_add gdisk
+config_package_add sgdisk
 
 
 # Third-party packages
@@ -188,8 +189,8 @@ config_package_add luci-app-autotimeset
 config_package_add luci-lib-ipkg
 
 ## byobu, tmux
-# config_package_add byobu
-# config_package_add tmux
+config_package_add byobu
+config_package_add tmux
 
 # ## Frp Latest version patch
 
