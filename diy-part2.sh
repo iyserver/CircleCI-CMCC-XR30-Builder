@@ -144,7 +144,7 @@ config_package_add luci-app-mwan3
 # ## frpc
 # config_package_add luci-app-frpc
 ## mosdns
-config_package_add luci-app-mosdns
+# config_package_add luci-app-mosdns
 ## curl
 config_package_add curl
 ## socat
