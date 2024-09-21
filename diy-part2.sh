@@ -172,6 +172,7 @@ mv package/custom/golang feeds/packages/lang/
 config_package_add luci-app-passwall2
 config_package_add iptables-mod-socket
 config_package_add luci-app-passwall2_Iptables_Transparent_Proxy
+config_package_add luci-app-passwall2_INCLUDE_Hysteria
 config_package_del luci-app-passwall2_Nftables_Transparent_Proxy
 config_package_del luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Client
 config_package_del luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Server
